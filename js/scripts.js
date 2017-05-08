@@ -14,7 +14,7 @@ $(document).ready(function() {
   $("form#formOne").submit(function(event) {
     event.preventDefault();
 
-    var inputtedItem = $("input#new-item").val();
+    var inputtedItem = $("textarea#new-item").val();
     var inputtedDate = $("input#new-date").val();
 
     var newTodo = new Todo(inputtedItem, inputtedDate);

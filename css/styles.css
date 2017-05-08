@@ -9,3 +9,17 @@
 body {
   background-image: url("../img/background.jpg");
 }
+
+h2 {
+  font-family: 'Sniglet', cursive;
+  font-size: 45px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#new-item {
+  height: 50px;
+  resize:vertical;
+}
